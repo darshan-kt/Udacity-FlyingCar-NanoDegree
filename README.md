@@ -1,5 +1,8 @@
 # Udacity-FlyingCar-NanoDegree
 
+## Course Completion Certificate
+![certificate](https://github.com/darshan-kt/Udacity-FlyingCar-NanoDegree/blob/master/udacity%20certificate.png)
+
 # P1 - Backyard Flyer Project
 In this project, set up a state machine using event-driven programming to autonomously flying a drone in square path. You will be using flying a quadcopter in Unity simulator.
 <p align="center">
@@ -19,7 +22,7 @@ The below video shows the accurately tunned controller to follow eight geometric
 <img src="animations/circle%20and%20eight%20trj.gif" width="550"/>
 </p>
 
-# P3 - Quadrotor Estimation project
+# P4 - Quadrotor Estimation project
 This project focused on creation and implementation of an Extended Kalman Filter (EKF) to predict a quadrotors state. Tested the implemented 3D EKF with integrating 3D control alogorthm on various recorded sensor data. The below gif shows the trajectory following quadrotr based on recorded magnetometer sensor estimation output coming from 3D EKF step.
 <p align="center">
 <img src="animations/estiamtion.gif" width="550"/>
