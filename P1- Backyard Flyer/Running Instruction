@@ -1,0 +1,10 @@
+To run backyard flyer project follow below steps:
+
+1. Run the Backyard Flyer project in the simulator.
+
+2. Open terminal and activate fcnd environment using code 
+
+source activate fcnd
+
+3. Run pythons backyardflyer script
+python BackyardFlying1.py

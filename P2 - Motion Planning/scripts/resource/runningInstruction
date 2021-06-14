@@ -1,0 +1,13 @@
+To run the motion planning algorithm follow below commands
+
+1. First run the motion planning simulator simultor
+
+2. Open terminal and activate fcnd environment using code setup
+
+source activate fcnd
+
+3. Run script
+
+python motion_planning_grid_map.py   (For grid based approach)
+
+python motion_planning_graph_map.py   (For graph based approach)
