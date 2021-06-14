@@ -89,6 +89,10 @@ For the controls project, the simulator was working with a perfect set of sensor
 
 5. Run the simulator. If your values are correct, the dashed lines in the simulation will eventually turn green, indicating you’re capturing approx 68% of the respective measurements (which is what we expect within +/- 1 sigma bound for a Gaussian noise model)
 
+<p align="center">
+<img src="videos/sensor_noise.gif" width="500"/>
+</p>
+
 ***Success criteria:*** *Your standard deviations should accurately capture the value of approximately 68% of the respective measurements.*
 
 NOTE: Your answer should match the settings in `SimulatedSensors.txt`, where you can also grab the simulated noise parameters for all the other sensors.
@@ -108,6 +112,10 @@ Observe that there’s quite a bit of error in attitude estimation.
 ![attitude example](images/attitude-screenshot.png)
 
 In the screenshot above the attitude estimation using linear scheme (left) and using the improved nonlinear scheme (right). Note that Y axis on error is much greater on left.
+
+<p align="center">
+<img src="videos/attitude_estimation.gif" width="500"/>
+</p>
 
 ***Success criteria:*** *Your attitude estimator needs to get within 0.1 rad for each of the Euler angles for at least 3 seconds.*
 
@@ -142,6 +150,10 @@ You will notice however that the estimated covariance (white bounds) currently d
 
 ![good covariance](images/predict-good-cov.png)
 
+<p align="center">
+<img src="videos/prediction.gif" width="500"/>
+</p>
+
 ***Success criteria:*** *This step doesn't have any specific measurable criteria being checked.*
 
 
@@ -165,6 +177,9 @@ Up until now we've only used the accelerometer and gyro for our state estimation
 
 **Hint: see section 7.3.2 of [Estimation for Quadrotors](https://www.overleaf.com/read/vymfngphcccj) for a refresher on the magnetometer update.**
 
+<p align="center">
+<img src="videos/magnetometer_update.gif" width="500"/>
+</p>
 
 ### Step 5: Closed Loop + GPS Update ###
 
@@ -190,6 +205,10 @@ Up until now we've only used the accelerometer and gyro for our state estimation
 
 At this point, congratulations on having a working estimator!
 
+<p align="center">
+<img src="videos/gps_update.gif" width="500"/>
+</p>
+
 ### Step 6: Adding Your Controller ###
 
 Up to this point, we have been working with a controller that has been relaxed to work with an estimated state instead of a real state.  So now, you will see how well your controller performs and de-tune your controller accordingly.
@@ -203,4 +222,5 @@ Up to this point, we have been working with a controller that has been relaxed t
 **Hint: you may find it easiest to do your de-tuning as a 2 step process by reverting to ideal sensors and de-tuning under those conditions first.**
 
 ***Success criteria:*** *Your objective is to complete the entire simulation cycle with estimated position error of < 1m.*
+
 
