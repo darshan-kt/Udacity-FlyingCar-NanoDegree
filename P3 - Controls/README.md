@@ -254,7 +254,7 @@ Did the velocity-specified trajectory make a difference? Why?
 With the two different trajectories, your drones' motions should look like this:
 
 <p align="center">
-<img src="animations/scenario5.gif" width="500"/>
+<img src="videos/eight.gif" width="500"/>
 </p>
 
 
