@@ -18,3 +18,9 @@ The below video shows the accurately tunned controller to follow eight geometric
 <p align="center">
 <img src="animations/circle%20and%20eight%20trj.gif" width="550"/>
 </p>
+
+# P3 - Quadrotor Estimation project
+This project focused on creation and implementation of an Extended Kalman Filter (EKF) to predict a quadrotors state. Tested the implemented 3D EKF with integrating 3D control alogorthm on various recorded sensor data. The below gif shows the trajectory following quadrotr based on recorded magnetometer sensor estimation output coming from 3D EKF step.
+<p align="center">
+<img src="animations/estiamtion.gif" width="550"/>
+</p>
