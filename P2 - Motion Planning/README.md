@@ -1,5 +1,5 @@
 # FCND - 3D Motion Planning
-![Quad Image](./misc/enroute.png)
+![Quad Image](https://github.com/darshan-kt/Udacity-FlyingCar-NanoDegree/blob/master/P2%20-%20Motion%20Planning/motionplan%20archi.png)
 
 
 
