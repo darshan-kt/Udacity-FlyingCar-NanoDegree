@@ -16,5 +16,5 @@ In this project write & integrate the path planning algorithm to find least poss
 In this project written the 3D quadrotor controller algorithm with adding body rate control, roll pitch control, altitude controller, lateral position control, yaw controller block to generate the motor commands for given commanded thrust and moments with respect to the trajecotry points. Finally tune the PID values for each individual control blocks. 
 The below video shows the accurately tunned controller to follow eight geometric trajectory.
 <p align="center">
-<img src="animations/controls.mp4" width="500"/>
+<img src="animations/circle%20and%20eight%20trj.gif" width="500"/>
 </p>
